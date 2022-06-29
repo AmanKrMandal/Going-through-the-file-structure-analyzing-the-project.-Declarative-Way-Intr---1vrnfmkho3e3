@@ -4,14 +4,27 @@ import '../styles/App.css';
 const App = () => {
   return (
     <div id="main">
-      <h1 data-ns-test="project-name">E-Commerce </h1>
-            <dl data-ns-test="project-description">
-                <dt>img</dt>
-                <dd>back ground img</dd>
-            </dl>
-
+             <Name/>
+            <Project/>
     </div>
   )
+}
+
+let Name =()=>{
+    return(
+        <h1 data-ns-test="project-name">E-Commerce </h1>
+
+    );
+}
+let Project =()=>{
+    return(
+        <div>
+        <p data-ns-test="project-description" >loremdnfhsduyfgvduyh jdfhgvbyu</p>
+        </div>
+  
+
+
+    );
 }
 
 
