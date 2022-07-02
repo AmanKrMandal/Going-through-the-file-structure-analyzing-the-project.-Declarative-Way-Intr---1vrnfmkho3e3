@@ -5,7 +5,6 @@ const App = () => {
   return (
     <div id="main">
                 <Project />
-
     </div>
   )
 }
@@ -13,10 +12,7 @@ const App = () => {
 let Project =()=>{
     return(
         <div>
-            <Project/>
-
         <h1 data-ns-test="project-name">E-Commerce </h1>
-      
         <p data-ns-test="project-description" >loremdnfhsduyfgvduyh jdfhgvbyu</p>
       
         </div>
